@@ -5,6 +5,7 @@ pipeline {
         stage('My-JenkinsBuild-Steps') {
             steps {
                echo "Start"
+               echo "Test"
                echo "Doing something.."
                echo "End"
             }
